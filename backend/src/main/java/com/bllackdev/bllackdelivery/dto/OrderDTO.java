@@ -100,4 +100,12 @@ public class OrderDTO implements Serializable {
     public void setOrder(List<ProductDTO> order) {
         this.product = product;
     }
+
+    public List<ProductDTO> getProduct() {
+        return product;
+    }
+
+    public void setProduct(List<ProductDTO> product) {
+        this.product = product;
+    }
 }
