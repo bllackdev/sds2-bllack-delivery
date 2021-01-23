@@ -1,10 +1,15 @@
+import Navbar from './Navbar';
+import Home from './Home';
+
 import './App.css';
+
 
 function App() {
   return (
-    <div>
-      <h1>Bllack Delivery</h1>
-    </div>
+    <>
+      <Navbar />
+      <Home />
+    </>
   );
 }
 
